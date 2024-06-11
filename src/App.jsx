@@ -26,7 +26,6 @@ const App = () => {
       );
       setImages(data.results);
       console.log(`Fetching images with query: ${searchInput.current.value}`);
-      console.log(`Using API Key: ${Api_Key}`);
       setTotalPages(data.total_pages);
       setLoading(false);
     } catch (error) {
