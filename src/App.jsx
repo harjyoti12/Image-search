@@ -1,5 +1,4 @@
 
-// eslint-disable-next-line no-unused-vars
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import "./App.css";
 import search from "./icon"; // Ensure this path is correct
